@@ -4,7 +4,6 @@ from datetime import datetime
 with open('chat-gpt.json', 'r') as json_file:
     json_data = json.load(json_file)
 
-# print test whether given data is loaded properly
 print(len(json_data))
 print("\n\nTitle")
 print(json_data[0]['title'])
