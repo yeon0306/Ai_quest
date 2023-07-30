@@ -53,4 +53,4 @@ for j in range(num_data):
     ws.cell(row=(j + 2), column=(k + 2), value=num_paragraph)
 
 
-wb.save("extracted_articles_0706.xlsx")
+wb.save("extracted_articles")
